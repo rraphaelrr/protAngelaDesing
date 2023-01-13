@@ -1,5 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
 @media all {
-  .cabecalho .logo {
+  html,
+  body {
+    font-family: "Mulish", sans-serif;
+  }
+
+  .logo {
     margin: 20px auto auto;
+  }
+  .navbar {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .navbar ul {
+    margin-top: 120px;
+  }
+
+  .navbar ul li {
+    display: flex;
+    margin: 20px auto 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 25px;
+    width: 150%;
+    justify-content: center;
+    border-radius: 20px;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+   
+  .hr-with-text {
+    text-align: center;
+  }
+
+  .hr-with-text hr {
+    margin: 27px 0 -25px;
+  }
+
+  .hr-with-text span {
+    background-color: #000;
+    padding: 0 15px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 20px;
+  }
+
+  hr {
+    border: 2px solid black !important;
+    opacity: 1 !important;
+  }
+
+  .perfil {
+    width: 90%;
+    margin-left: 50px;
+  }
+
+  .sobre p {
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: #000;
+    
+  }
+
+  .linksRedes li {
+    display: inline-block;
+    border: 2px solid black;
+    width: 15%;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 17px;
+  }
+
+  .linksRedes li a {
+    color: #000;
+    text-decoration: none;
   }
 }
